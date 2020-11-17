@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TMML Facility="Freeway">
+  <PROJECT>
+    <FileName>S:\Projects\LOSPLAN\Computations Documentation\Freeplan\MathCad Example\Computation Documentation Example File.xfp</FileName>
+    <Analyst>UF-TRC</Analyst>
+    <Date>10/18/2009 6:00:00 AM</Date>
+    <Agency />
+    <Comment>Example file that corresponds with computations documentation (in MathCad format)</Comment>
+    <PeriodID>K100</PeriodID>
+    <Program>FREEPLAN 2009</Program>
+    <Version>11/9/09</Version>
+  </PROJECT>
+  <FREEWAY id="1">
+    <FREEWAYINFO>
+      <FreewayName>Sample Freeway</FreewayName>
+      <From />
+      <To />
+      <FwdDirection>Eastbound</FwdDirection>
+      <AreaType>Large Urbanized</AreaType>
+      <AADT>60000</AADT>
+      <KFactor_PLN>0.092</KFactor_PLN>
+      <DFactor_PLN>0.55</DFactor_PLN>
+      <DDHV>3036</DDHV>
+      <PHF>0.95</PHF>
+      <HVPct>5</HVPct>
+      <LocalAdjFactor>1.00</LocalAdjFactor>
+      <RampMetering>No</RampMetering>
+      <NumberOfSegments>14</NumberOfSegments>
+      <FwyLength>12.64394</FwyLength>
+      <MaxSerVol>2100</MaxSerVol>
+    </FREEWAYINFO>
+    <SEGMENTS>
+      <SEGMENT id="1">
+        <To>b</To>
+        <From>a</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3036</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="2">
+        <To>c</To>
+        <From>b</From>
+        <SegmentType>Full Cloverleaf</SegmentType>
+        <Length>7000</Length>
+        <InterchangeLength>4000</InterchangeLength>
+        <GoreDistance0>500</GoreDistance0>
+        <GoreDistance1>3000</GoreDistance1>
+        <GoreDistance2>500</GoreDistance2>
+        <FullCloverAuxLane>True</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3036</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>300</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <OFFRAMP id="2">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+          <ONRAMP id="2">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="3">
+        <To>d</To>
+        <From>c</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>2280</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3436</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="4">
+        <To>e</To>
+        <From>d</From>
+        <SegmentType>Diamond</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>2280</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3436</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="5">
+        <To>f</To>
+        <From>e</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>1000</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3681</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>1</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="6">
+        <To>g</To>
+        <From>f</From>
+        <SegmentType>Partial Cloverleaf</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>2280</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>3000</BetweenLength>
+        <Demand>3681</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>1</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="7">
+        <To>h</To>
+        <From>g</From>
+        <SegmentType>Full Cloverleaf</SegmentType>
+        <Length>10000</Length>
+        <InterchangeLength>7000</InterchangeLength>
+        <GoreDistance0>1500</GoreDistance0>
+        <GoreDistance1>4000</GoreDistance1>
+        <GoreDistance2>1500</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>1500</BetweenLength>
+        <Demand>3436</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <OFFRAMP id="2">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>600</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+          <ONRAMP id="2">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="8">
+        <To>i</To>
+        <From>h</From>
+        <SegmentType>Off Ramp</SegmentType>
+        <Length>1500</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>0</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3336</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>1</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>300</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>2</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="9">
+        <To>j</To>
+        <From>i</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3036</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="10">
+        <To>k</To>
+        <From>j</From>
+        <SegmentType>Full Cloverleaf</SegmentType>
+        <Length>6800</Length>
+        <InterchangeLength>3800</InterchangeLength>
+        <GoreDistance0>1000</GoreDistance0>
+        <GoreDistance1>1800</GoreDistance1>
+        <GoreDistance2>1000</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3036</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>400</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <OFFRAMP id="2">
+            <Volume>500</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>350</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>500</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+          <ONRAMP id="2">
+            <Volume>700</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="11">
+        <To>l</To>
+        <From>k</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>5280</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3536</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="12">
+        <To>m</To>
+        <From>l</From>
+        <SegmentType>On Ramp</SegmentType>
+        <Length>1500</Length>
+        <InterchangeLength>0</InterchangeLength>
+        <GoreDistance0>0</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>3536</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>0</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <ONRAMP id="1">
+            <Volume>600</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>2</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+      <SEGMENT id="13">
+        <To>n</To>
+        <From>m</From>
+        <SegmentType>Basic Segment</SegmentType>
+        <Length>1500</Length>
+        <InterchangeLength>2280</InterchangeLength>
+        <GoreDistance0>2280</GoreDistance0>
+        <GoreDistance1>0</GoreDistance1>
+        <GoreDistance2>0</GoreDistance2>
+        <FullCloverAuxLane>False</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>4136</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>1</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+      </SEGMENT>
+      <SEGMENT id="14">
+        <To>o</To>
+        <From>n</From>
+        <SegmentType>Full Cloverleaf</SegmentType>
+        <Length>7280</Length>
+        <InterchangeLength>4280</InterchangeLength>
+        <GoreDistance0>1140</GoreDistance0>
+        <GoreDistance1>2000</GoreDistance1>
+        <GoreDistance2>1140</GoreDistance2>
+        <FullCloverAuxLane>True</FullCloverAuxLane>
+        <BetweenLength>0</BetweenLength>
+        <Demand>4136</Demand>
+        <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+        <NumberOfLanes_Aux>1</NumberOfLanes_Aux>
+        <PostedSpeed>60</PostedSpeed>
+        <FreeFlowSpeed>65</FreeFlowSpeed>
+        <Terrain>Level</Terrain>
+        <RAMPS>
+          <OFFRAMP id="1">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <OFFRAMP id="2">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <DecelLength>450</DecelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+            <OffRampAnalysis>True</OffRampAnalysis>
+            <Length>1320</Length>
+            <SignalLocation>EndOfRamp</SignalLocation>
+            <SignalControl>Pretimed</SignalControl>
+            <SignalCycle>120</SignalCycle>
+            <SignalgC>0.44</SignalgC>
+            <SignalRTOR>0</SignalRTOR>
+          </OFFRAMP>
+          <ONRAMP id="1">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+          <ONRAMP id="2">
+            <Volume>455</Volume>
+            <HVPct>2.0</HVPct>
+            <NumberOfLns>1</NumberOfLns>
+            <AccelLength>1000</AccelLength>
+            <FreeFlowSpeed>40</FreeFlowSpeed>
+          </ONRAMP>
+        </RAMPS>
+      </SEGMENT>
+    </SEGMENTS>
+  </FREEWAY>
+</TMML>

@@ -1,0 +1,1550 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TMML Facility="Freeway">
+  <PROJECT>
+    <FileName>C:\Users\SWasst\Desktop\Computation Documentation Example File 2012a.xfp</FileName>
+    <Analyst>UF-TRC</Analyst>
+    <Date>2/3/2012 3:14:50 PM</Date>
+    <Agency />
+    <Comment>Example file that corresponds with computations documentation (in MathCad format)</Comment>
+    <FreewayName>Sample Freeway</FreewayName>
+    <FacilityStart />
+    <FacilityEnd />
+    <AnalysisDirection>Eastbound</AnalysisDirection>
+    <PeriodID>Kother</PeriodID>
+    <Program>FREEPLAN 2012</Program>
+    <Version>2/20/12</Version>
+  </PROJECT>
+  <FREEWAY id="1">
+    <FREEWAYINFO>
+      <FreewayName>Sample Freeway</FreewayName>
+      <From />
+      <To />
+      <FwdDirection>Eastbound</FwdDirection>
+      <AreaType>Large Urbanized</AreaType>
+      <AADT>60000</AADT>
+      <KFactor_PLN>0.092</KFactor_PLN>
+      <DFactor_PLN>0.55</DFactor_PLN>
+      <DDHV>3036</DDHV>
+      <PHF>0.95</PHF>
+      <HVPct>5</HVPct>
+      <LocalAdjFactor>1.00</LocalAdjFactor>
+      <RampMetering>No</RampMetering>
+      <NumberOfSegments>33</NumberOfSegments>
+      <FwyLength>12.64394</FwyLength>
+      <MaxSerVol>2100</MaxSerVol>
+    </FREEWAYINFO>
+    <TIMEPERIODS>
+      <TimePeriod id="0">
+        <SEGMENTS>
+          <SEGMENT id="1">
+            <To>B</To>
+            <From>A</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="2">
+            <To>C</To>
+            <From>B</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>300</DemandVeh>
+                <AdjDemandPC>319.16</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="3">
+            <To>D</To>
+            <From>C</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>500</Length>
+            <DemandVeh>2736</DemandVeh>
+            <AdjDemandPC>2956.74</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="4">
+            <To>E</To>
+            <From>D</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>2310</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>3000</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="5">
+            <To>F</To>
+            <From>E</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>500</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="6">
+            <To>G</To>
+            <From>F</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="7">
+            <To>H</To>
+            <From>G</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="8">
+            <To>I</To>
+            <From>H</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="9">
+            <To>J</To>
+            <From>I</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>2280</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="10">
+            <To>K</To>
+            <From>J</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>3080</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>4000</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3961.69</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="11">
+            <To>L</To>
+            <From>K</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>2280</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="12">
+            <To>M</To>
+            <From>L</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="13">
+            <To>N</To>
+            <From>M</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="14">
+            <To>O</To>
+            <From>N</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="15">
+            <To>P</To>
+            <From>O</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>600</DemandVeh>
+                <AdjDemandPC>638.32</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="16">
+            <To>Q</To>
+            <From>P</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="17">
+            <To>R</To>
+            <From>Q</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="18">
+            <To>S</To>
+            <From>R</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>2881</DemandVeh>
+            <AdjDemandPC>3111.27</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="19">
+            <To>T</To>
+            <From>S</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>1155</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>1500</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>300</DemandVeh>
+                <AdjDemandPC>319.16</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>2</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="20">
+            <To>U</To>
+            <From>T</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="21">
+            <To>V</To>
+            <From>U</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>400</DemandVeh>
+                <AdjDemandPC>425.21</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="22">
+            <To>W</To>
+            <From>V</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>2636</DemandVeh>
+            <AdjDemandPC>2850.69</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="23">
+            <To>X</To>
+            <From>W</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>300</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>500</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="24">
+            <To>Y</To>
+            <From>X</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Ramp Overlap</SegmentType>
+            <Length>1200</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="25">
+            <To>Z</To>
+            <From>Y</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>300</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>500</DemandVeh>
+                <AdjDemandPC>531.26</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>350</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="26">
+            <To>AA</To>
+            <From>Z</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>2836</DemandVeh>
+            <AdjDemandPC>3063.8</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="27">
+            <To>AB</To>
+            <From>AA</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3536</DemandVeh>
+            <AdjDemandPC>3808.17</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="28">
+            <To>AC</To>
+            <From>AB</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3536</DemandVeh>
+            <AdjDemandPC>3808.17</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="29">
+            <To>AD</To>
+            <From>AC</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>3465</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>4500</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>600</DemandVeh>
+                <AdjDemandPC>638.32</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>2</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="30">
+            <To>AE</To>
+            <From>AD</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1140</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3962.7</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="31">
+            <To>AF</To>
+            <From>AE</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>1540</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>2000</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="32">
+            <To>AG</To>
+            <From>AF</From>
+            <IsZero>1</IsZero>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1140</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3962.7</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="33">
+            <To>AH</To>
+            <From>AG</From>
+            <IsZero>1</IsZero>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+        </SEGMENTS>
+      </TimePeriod>
+      <TimePeriod id="1">
+        <SEGMENTS>
+          <SEGMENT id="1">
+            <To>B</To>
+            <From>A</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="2">
+            <To>C</To>
+            <From>B</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>300</DemandVeh>
+                <AdjDemandPC>319.16</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="3">
+            <To>D</To>
+            <From>C</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>500</Length>
+            <DemandVeh>2736</DemandVeh>
+            <AdjDemandPC>2956.74</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="4">
+            <To>E</To>
+            <From>D</From>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>2310</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>3000</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="5">
+            <To>F</To>
+            <From>E</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>500</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="6">
+            <To>G</To>
+            <From>F</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="7">
+            <To>H</To>
+            <From>G</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="8">
+            <To>I</To>
+            <From>H</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="9">
+            <To>J</To>
+            <From>I</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>2280</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="10">
+            <To>K</To>
+            <From>J</From>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>3080</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>4000</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3961.69</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="11">
+            <To>L</To>
+            <From>K</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>2280</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="12">
+            <To>M</To>
+            <From>L</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="13">
+            <To>N</To>
+            <From>M</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3436</DemandVeh>
+            <AdjDemandPC>3701.11</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="14">
+            <To>O</To>
+            <From>N</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>2981</DemandVeh>
+            <AdjDemandPC>3217.32</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="15">
+            <To>P</To>
+            <From>O</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>600</DemandVeh>
+                <AdjDemandPC>638.32</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="16">
+            <To>Q</To>
+            <From>P</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="17">
+            <To>R</To>
+            <From>Q</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3581</DemandVeh>
+            <AdjDemandPC>3855.64</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="18">
+            <To>S</To>
+            <From>R</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>2881</DemandVeh>
+            <AdjDemandPC>3111.27</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="19">
+            <To>T</To>
+            <From>S</From>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>1155</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>1500</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>300</DemandVeh>
+                <AdjDemandPC>319.16</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>2</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="20">
+            <To>U</To>
+            <From>T</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="21">
+            <To>V</To>
+            <From>U</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3036</DemandVeh>
+            <AdjDemandPC>3275.9</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>400</DemandVeh>
+                <AdjDemandPC>425.21</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="22">
+            <To>W</To>
+            <From>V</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>2636</DemandVeh>
+            <AdjDemandPC>2850.69</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="23">
+            <To>X</To>
+            <From>W</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>300</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>500</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="24">
+            <To>Y</To>
+            <From>X</From>
+            <SegmentType>Ramp Overlap</SegmentType>
+            <Length>1200</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="25">
+            <To>Z</To>
+            <From>Y</From>
+            <SegmentType>Off Ramp</SegmentType>
+            <Length>300</Length>
+            <DemandVeh>3336</DemandVeh>
+            <AdjDemandPC>3595.06</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>500</DemandVeh>
+                <AdjDemandPC>531.26</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>350</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="26">
+            <To>AA</To>
+            <From>Z</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1000</Length>
+            <DemandVeh>2836</DemandVeh>
+            <AdjDemandPC>3063.8</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="27">
+            <To>AB</To>
+            <From>AA</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>3536</DemandVeh>
+            <AdjDemandPC>3808.17</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>700</DemandVeh>
+                <AdjDemandPC>744.37</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="28">
+            <To>AC</To>
+            <From>AB</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>5280</Length>
+            <DemandVeh>3536</DemandVeh>
+            <AdjDemandPC>3808.17</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="29">
+            <To>AD</To>
+            <From>AC</From>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>3465</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>4500</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>600</DemandVeh>
+                <AdjDemandPC>638.32</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>2</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="30">
+            <To>AE</To>
+            <From>AD</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1140</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3962.7</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="31">
+            <To>AF</To>
+            <From>AE</From>
+            <SegmentType>Weaving</SegmentType>
+            <WeavingType>OneSide</WeavingType>
+            <ShortLength>1540</ShortLength>
+            <MinLaneChangesFwyRamp>1</MinLaneChangesFwyRamp>
+            <MinLaneChangesRampFwy>1</MinLaneChangesRampFwy>
+            <MinLaneChangesRampRamp>N/A</MinLaneChangesRampRamp>
+            <NumWeaveLanes>2</NumWeaveLanes>
+            <Length>2000</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>4</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <OFFRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <DecelLength>450</DecelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+                <OffRampAnalysis>True</OffRampAnalysis>
+                <Length>1320</Length>
+                <SignalLocation>EndOfRamp</SignalLocation>
+                <SignalControl>Pretimed</SignalControl>
+                <SignalCycle>120</SignalCycle>
+                <SignalgC>0.44</SignalgC>
+                <SignalRTOR>0</SignalRTOR>
+              </OFFRAMP>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+          <SEGMENT id="32">
+            <To>AG</To>
+            <From>AF</From>
+            <SegmentType>Basic Segment</SegmentType>
+            <Length>1140</Length>
+            <DemandVeh>3681</DemandVeh>
+            <AdjDemandPC>3962.7</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+          </SEGMENT>
+          <SEGMENT id="33">
+            <To>AH</To>
+            <From>AG</From>
+            <SegmentType>On Ramp</SegmentType>
+            <Length>1500</Length>
+            <DemandVeh>4136</DemandVeh>
+            <AdjDemandPC>4446.49</AdjDemandPC>
+            <NumberOfLanes_Thru>3</NumberOfLanes_Thru>
+            <PostedSpeed>60</PostedSpeed>
+            <FreeFlowSpeed>65</FreeFlowSpeed>
+            <Terrain>Level</Terrain>
+            <RAMPS>
+              <ONRAMP id="1">
+                <DemandVeh>455</DemandVeh>
+                <AdjDemandPC>483.79</AdjDemandPC>
+                <HVPct>2.0</HVPct>
+                <PctTrucks>2.0</PctTrucks>
+                <NumberOfLns>1</NumberOfLns>
+                <AccelLength>1000</AccelLength>
+                <FreeFlowSpeed>40</FreeFlowSpeed>
+              </ONRAMP>
+            </RAMPS>
+          </SEGMENT>
+        </SEGMENTS>
+      </TimePeriod>
+    </TIMEPERIODS>
+  </FREEWAY>
+</TMML>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TMML>
+  <Facility>Multilane Segment</Facility>
+  <PROJECT>
+    <FileName>E:\My Documents\Projects\Software\LOSPLAN\Computations Documentation\Highplan\2012\Computation Documentation Example_Multilane.xhp</FileName>
+    <Analyst />
+    <Date>1/3/2012 1:00:00 PM</Date>
+    <Agency />
+    <Comment />
+    <PeriodID>Kother</PeriodID>
+    <AnalysisType>Multilane Segment</AnalysisType>
+    <Program>HIGHPLAN 2012</Program>
+    <Version>1/3/12</Version>
+  </PROJECT>
+  <HIGHWAY>
+    <RoadName />
+    <From />
+    <To />
+    <FwdDirection>Southbound</FwdDirection>
+    <RevDirection>Northbound</RevDirection>
+    <AreaType>Transitioning/Urban</AreaType>
+    <HighwayClass_HCM>3</HighwayClass_HCM>
+    <NumberOfLns>4</NumberOfLns>
+    <Terrain>Rolling</Terrain>
+    <PostedSpeed>45</PostedSpeed>
+    <FreeFlowSpeed>50</FreeFlowSpeed>
+    <SegLength>5</SegLength>
+    <LTimpact>Yes</LTimpact>
+    <MedianYN>No</MedianYN>
+    <NoPassZonePct>N/A</NoPassZonePct>
+    <PassLnYN>N/A</PassLnYN>
+    <PassingLnSpacing>N/A</PassingLnSpacing>
+    <AADT>39500</AADT>
+    <PkHrVol>2064</PkHrVol>
+    <OffPkHrVol>1689</OffPkHrVol>
+    <KFactor>0.095</KFactor>
+    <DFactor>0.550</DFactor>
+    <PHF>0.925</PHF>
+    <LocalAdj>1.00</LocalAdj>
+    <HVPct>2.0</HVPct>
+    <BaseCapPerLn>2000</BaseCapPerLn>
+    <AdjCapPerLn>1456</AdjCapPerLn>
+    <Length>5.00</Length>
+    <MaxSerVol>0</MaxSerVol>
+  </HIGHWAY>
+</TMML>

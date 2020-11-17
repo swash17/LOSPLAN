@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TMML>
+  <Facility>TwoLane</Facility>
+  <PROJECT>
+    <FileName>S:\Projects\LOSPLAN\Computations Documentation\Highplan\Highplan 2009\HEH\Computation Documentation Example.xhp</FileName>
+    <Analyst />
+    <Date>1/3/2012 1:00:00 PM</Date>
+    <Agency />
+    <Comment />
+    <PeriodID>Kother</PeriodID>
+    <AnalysisType>Two-Lane</AnalysisType>
+    <Program>HIGHPLAN 2012</Program>
+    <Version>1/3/12</Version>
+  </PROJECT>
+  <HIGHWAY>
+    <RoadName />
+    <From />
+    <To />
+    <FwdDirection>Southbound</FwdDirection>
+    <RevDirection>Northbound</RevDirection>
+    <AreaType>Transitioning/Urban</AreaType>
+    <HighwayClass_HCM>3</HighwayClass_HCM>
+    <NumberOfLns>2</NumberOfLns>
+    <Terrain>Rolling</Terrain>
+    <PostedSpeed>50</PostedSpeed>
+    <FreeFlowSpeed>55</FreeFlowSpeed>
+    <SegLength>4</SegLength>
+    <LTimpact>No</LTimpact>
+    <MedianYN>No</MedianYN>
+    <NoPassZonePct>60</NoPassZonePct>
+    <PassLnYN>No</PassLnYN>
+    <PassingLnSpacing>N/A</PassingLnSpacing>
+    <AADT>14410</AADT>
+    <KFactor>0.096</KFactor>
+    <DFactor>0.600</DFactor>
+    <PHF>0.910</PHF>
+    <PkHrVol>835</PkHrVol>
+    <OffPkHrVol>557</OffPkHrVol>
+    <HVPct>4.0</HVPct>
+    <BaseCapPerLn>1700</BaseCapPerLn>
+    <LocalAdj>1.00</LocalAdj>
+    <AdjCapPerLn>1524</AdjCapPerLn>
+    <ServMeasure>PctFFS</ServMeasure>
+    <VCRatio>0.56</VCRatio>
+    <PTSF_HCM>85.49</PTSF_HCM>
+    <Density>N/A</Density>
+    <AvgTravelSpeed>41.2</AvgTravelSpeed>
+    <PFFS>75.00</PFFS>
+    <FFSDelay>87.28</FFSDelay>
+    <ThresholdDelay>61.10</ThresholdDelay>
+    <LOS>F</LOS>
+    <MaxSerVol>1600</MaxSerVol>
+  </HIGHWAY>
+  <LOSTABLES Mode="Auto">
+    <CROSSSECTION Lanes="1">
+      <SERVICEVOL LOS="1">
+        <PeakDirection>100</PeakDirection>
+        <BothDirections>170</BothDirections>
+        <AADT>1800</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="2">
+        <PeakDirection>400</PeakDirection>
+        <BothDirections>670</BothDirections>
+        <AADT>7000</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="3">
+        <PeakDirection>830</PeakDirection>
+        <BothDirections>1390</BothDirections>
+        <AADT>14500</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="4">
+        <PeakDirection>1180</PeakDirection>
+        <BothDirections>1970</BothDirections>
+        <AADT>20600</AADT>
+      </SERVICEVOL>
+      <SERVICEVOL LOS="5">
+        <PeakDirection>1500</PeakDirection>
+        <BothDirections>2500</BothDirections>
+        <AADT>26100</AADT>
+      </SERVICEVOL>
+    </CROSSSECTION>
+  </LOSTABLES>
+</TMML>

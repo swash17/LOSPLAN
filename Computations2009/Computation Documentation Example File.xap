@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<TMML Facility="Arterial">
+  <PROJECT>
+    <FileName>S:\Projects\LOSPLAN\Computations Documentation\Artplan\HEH ARTPLAN\MathCAD Example.xap</FileName>
+    <Analyst />
+    <Date>10/21/2009 1:42:24 PM</Date>
+    <Agency />
+    <Comment />
+    <ModalAnalysis>Multimodal</ModalAnalysis>
+    <AnalysisType>Peak Direction</AnalysisType>
+    <PeriodID>K100</PeriodID>
+    <Program>ARTPLAN 2009</Program>
+    <Version>12/14/09</Version>
+  </PROJECT>
+  <ARTERIAL id="1">
+    <ARTERIALINFO>
+      <ArterialName />
+      <From />
+      <To />
+      <FwdDirection>Northbound</FwdDirection>
+      <AreaType>Large Urbanized</AreaType>
+      <ArterialClass_HCM>2</ArterialClass_HCM>
+      <KFactor_PLN>0.095</KFactor_PLN>
+      <DFactor_PLN>0.55</DFactor_PLN>
+      <PHF>0.95</PHF>
+      <BaseSatFlowPerLane>1950</BaseSatFlowPerLane>
+      <NumberOfIntersections>3</NumberOfIntersections>
+      <ArtLength>1.0800</ArtLength>
+      <MaxSerVol>1000</MaxSerVol>
+    </ARTERIALINFO>
+    <ARTERIALDIR id="forward">
+      <HVPct>2.5</HVPct>
+    </ARTERIALDIR>
+    <INTERSECTIONS>
+      <INTERSECTION id="1">
+        <INTERSECTIONINFO>
+          <CrossStreetName />
+        </INTERSECTIONINFO>
+        <CONTROLLER>
+          <ControlMode>Actuated</ControlMode>
+          <CycleLength>0</CycleLength>
+        </CONTROLLER>
+      </INTERSECTION>
+      <INTERSECTION id="2">
+        <INTERSECTIONINFO>
+          <CrossStreetName />
+        </INTERSECTIONINFO>
+        <CONTROLLER>
+          <ControlMode>Actuated</ControlMode>
+          <CycleLength>120</CycleLength>
+        </CONTROLLER>
+        <APPROACH id="forward">
+          <LANEGROUP>
+            <Section>1</Section>
+            <GCRatio>0.5</GCRatio>
+            <LeftTurnBayYN>Yes</LeftTurnBayYN>
+            <NumberLTlanes>1</NumberLTlanes>
+            <LTBayLength>600</LTBayLength>
+            <GCRatioLT>0.15</GCRatioLT>
+            <RightTurnBayYN>No</RightTurnBayYN>
+            <PctTurn_Left>12</PctTurn_Left>
+            <PctTurn_Right>8</PctTurn_Right>
+            <ArrivalType>4</ArrivalType>
+            <NumberOfLanes_INT>3</NumberOfLanes_INT>
+            <LinkLength>2500</LinkLength>
+            <NumberOfLanes_SEG>3</NumberOfLanes_SEG>
+            <FreeFlowSpeed>50</FreeFlowSpeed>
+            <MedianType>Non-Restrictive</MedianType>
+            <AADT>43250</AADT>
+            <DDHV>2260</DDHV>
+            <ThruMvmtFlowRate>2095</ThruMvmtFlowRate>
+            <AdjSatFlowRate>5609</AdjSatFlowRate>
+            <Cap>8414</Cap>
+            <OutsideLnWidth>Typical</OutsideLnWidth>
+            <PavementCondition>Typical</PavementCondition>
+            <BikeLnYN>Yes</BikeLnYN>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>Yes</SidewalkBarrier>
+            <SidewalkToBusYN>No</SidewalkToBusYN>
+            <NumberOfBuses>2</NumberOfBuses>
+            <SpanOfService>15</SpanOfService>
+          </LANEGROUP>
+          <SUBSEGMENT id="1">
+            <PctOfSegment>100</PctOfSegment>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>Yes</SidewalkBarrier>
+          </SUBSEGMENT>
+        </APPROACH>
+      </INTERSECTION>
+      <INTERSECTION id="3">
+        <INTERSECTIONINFO>
+          <CrossStreetName />
+        </INTERSECTIONINFO>
+        <CONTROLLER>
+          <ControlMode>Actuated</ControlMode>
+          <CycleLength>150</CycleLength>
+        </CONTROLLER>
+        <APPROACH id="forward">
+          <LANEGROUP>
+            <Section>2</Section>
+            <GCRatio>0.4</GCRatio>
+            <LeftTurnBayYN>Yes</LeftTurnBayYN>
+            <NumberLTlanes>1</NumberLTlanes>
+            <LTBayLength>235</LTBayLength>
+            <GCRatioLT>0.15</GCRatioLT>
+            <RightTurnBayYN>No</RightTurnBayYN>
+            <PctTurn_Left>7</PctTurn_Left>
+            <PctTurn_Right>5</PctTurn_Right>
+            <ArrivalType>3</ArrivalType>
+            <NumberOfLanes_INT>3</NumberOfLanes_INT>
+            <LinkLength>1500</LinkLength>
+            <NumberOfLanes_SEG>3</NumberOfLanes_SEG>
+            <FreeFlowSpeed>50</FreeFlowSpeed>
+            <MedianType>Restrictive</MedianType>
+            <AADT>43250</AADT>
+            <DDHV>2260</DDHV>
+            <ThruMvmtFlowRate>2214</ThruMvmtFlowRate>
+            <AdjSatFlowRate>5709</AdjSatFlowRate>
+            <Cap>6851</Cap>
+            <OutsideLnWidth>Typical</OutsideLnWidth>
+            <PavementCondition>Typical</PavementCondition>
+            <BikeLnYN>Yes</BikeLnYN>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>Yes</SidewalkBarrier>
+            <SidewalkToBusYN>No</SidewalkToBusYN>
+            <NumberOfBuses>2</NumberOfBuses>
+            <SpanOfService>15</SpanOfService>
+          </LANEGROUP>
+          <SUBSEGMENT id="1">
+            <PctOfSegment>100</PctOfSegment>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>Yes</SidewalkBarrier>
+          </SUBSEGMENT>
+        </APPROACH>
+      </INTERSECTION>
+      <INTERSECTION id="4">
+        <INTERSECTIONINFO>
+          <CrossStreetName />
+        </INTERSECTIONINFO>
+        <CONTROLLER>
+          <ControlMode>Actuated</ControlMode>
+          <CycleLength>150</CycleLength>
+        </CONTROLLER>
+        <APPROACH id="forward">
+          <LANEGROUP>
+            <Section>3</Section>
+            <GCRatio>0.45</GCRatio>
+            <LeftTurnBayYN>Yes</LeftTurnBayYN>
+            <NumberLTlanes>1</NumberLTlanes>
+            <LTBayLength>235</LTBayLength>
+            <GCRatioLT>0.20</GCRatioLT>
+            <RightTurnBayYN>Yes</RightTurnBayYN>
+            <PctTurn_Left>9</PctTurn_Left>
+            <PctTurn_Right>4</PctTurn_Right>
+            <ArrivalType>5</ArrivalType>
+            <NumberOfLanes_INT>4</NumberOfLanes_INT>
+            <LinkLength>1700</LinkLength>
+            <NumberOfLanes_SEG>4</NumberOfLanes_SEG>
+            <FreeFlowSpeed>50</FreeFlowSpeed>
+            <MedianType>Non-Restrictive</MedianType>
+            <AADT>43250</AADT>
+            <DDHV>2260</DDHV>
+            <ThruMvmtFlowRate>2072</ThruMvmtFlowRate>
+            <AdjSatFlowRate>7495</AdjSatFlowRate>
+            <Cap>13490</Cap>
+            <OutsideLnWidth>Typical</OutsideLnWidth>
+            <PavementCondition>Typical</PavementCondition>
+            <BikeLnYN>No</BikeLnYN>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>No</SidewalkBarrier>
+            <SidewalkToBusYN>No</SidewalkToBusYN>
+            <NumberOfBuses>2</NumberOfBuses>
+            <SpanOfService>15</SpanOfService>
+          </LANEGROUP>
+          <SUBSEGMENT id="1">
+            <PctOfSegment>100</PctOfSegment>
+            <SidewalkYN>Yes</SidewalkYN>
+            <SidewalkSeparation>Typical</SidewalkSeparation>
+            <SidewalkBarrier>No</SidewalkBarrier>
+          </SUBSEGMENT>
+        </APPROACH>
+      </INTERSECTION>
+    </INTERSECTIONS>
+  </ARTERIAL>
+</TMML>
